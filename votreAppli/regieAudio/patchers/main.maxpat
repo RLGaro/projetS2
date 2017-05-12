@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 230.0, 111.0, 1612.0, 857.0 ],
+		"rect" : [ 177.0, 133.0, 1612.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -129,7 +129,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1403.0, 217.5, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio1.maxpat"
@@ -140,8 +140,9 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 0,
-					"numoutlets" : 0,
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 1132.0, 284.0, 112.0, 22.0 ],
 					"style" : "",
 					"text" : "effetAudio2.maxpat"
@@ -154,7 +155,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1380.0, 130.0, 223.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat PIANO.mp3"
@@ -166,7 +167,8 @@
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 1161.0, 130.0, 217.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat WIND.mp3"
@@ -178,7 +180,8 @@
 					"id" : "obj-5",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 880.0, 130.0, 279.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat INTERFERENCE.mp3"
@@ -190,7 +193,8 @@
 					"id" : "obj-4",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 654.0, 130.0, 224.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat HEART.mp3"
@@ -202,7 +206,8 @@
 					"id" : "obj-3",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 0,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 420.0, 130.0, 232.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat CRYING.mp3"
@@ -215,7 +220,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
+					"outlettype" : [ "bang", "bang", "int", "int" ],
 					"patching_rect" : [ 439.5, 8.0, 128.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC.maxpat"
@@ -304,7 +309,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 244.0, 439.0, 116.0, 22.0 ],
 					"style" : "",
 					"text" : "detectionEnveloppe"
@@ -317,7 +322,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 78.0, 130.0, 254.0, 22.0 ],
 					"style" : "",
 					"text" : "lecteurAudioStereo.maxpat BREATHING.mp3"
@@ -650,7 +655,64 @@
 
 			}
  ],
-		"dependency_cache" : [  ],
+		"parameters" : 		{
+			"obj-12::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-12::obj-16" : [ "flonum[1]", "flonum[1]", 0 ]
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "lecteurAudioStereo.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "detectionEnveloppe.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "envoiAudioReseau.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "receptionOSC.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio2.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filtrage.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "effetAudio1.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "pedaleWahWah.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "OSC-route.mxo",
+				"type" : "iLaX"
+			}
+ ],
 		"autosave" : 0
 	}
 
