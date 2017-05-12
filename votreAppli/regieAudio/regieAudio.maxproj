@@ -1,9 +1,9 @@
 {
 	"name" : "regieAudio",
 	"version" : 1,
-	"creationdate" : 3573048016,
-	"modificationdate" : 3573048022,
-	"viewrect" : [ 393.0, 132.0, 300.0, 500.0 ],
+	"creationdate" : -721919280,
+	"modificationdate" : -717537739,
+	"viewrect" : [ 8.0, 247.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,6 +14,26 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
+			}
+,
+			"pedaleWahWah.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"filtrage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"effetAudio1.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
 			}
 
 		}
