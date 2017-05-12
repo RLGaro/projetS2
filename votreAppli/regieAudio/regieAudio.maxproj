@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717537739,
+	"modificationdate" : -717533852,
 	"viewrect" : [ 8.0, 247.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -35,6 +35,58 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"receptionOSC.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+
+		}
+,
+		"media" : 		{
+			"BREATHING.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"CRYING.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"HEART.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"INTERFERENCE.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"PIANO.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+,
+			"WIND.mp3" : 			{
+				"kind" : "audiofile",
+				"local" : 1
+			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
