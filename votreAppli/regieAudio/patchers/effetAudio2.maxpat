@@ -43,7 +43,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 144.0, 126.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -68,7 +68,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 91.0, 126.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -293,6 +293,14 @@
 
 			}
  ],
+		"dependency_cache" : [ 			{
+				"name" : "filtrage.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0,
 		"styles" : [ 			{
 				"name" : "AudioStatus_Menu",
 				"default" : 				{
