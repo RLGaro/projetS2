@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717281583,
-	"viewrect" : [ 646.0, 405.0, 300.0, 500.0 ],
+	"modificationdate" : -717280053,
+	"viewrect" : [ 69.0, 270.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -66,7 +66,22 @@
 				"local" : 1
 			}
 ,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Synthèse accord.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"simpleFM~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
