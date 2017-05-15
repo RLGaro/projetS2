@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717533852,
-	"viewrect" : [ 8.0, 247.0, 300.0, 500.0 ],
+	"modificationdate" : -717281583,
+	"viewrect" : [ 646.0, 405.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,12 +16,37 @@
 				"toplevel" : 1
 			}
 ,
-			"pedaleWahWah.maxpat" : 			{
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"effetAudio2.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"Synthèse accord.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"simpleFM~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -36,17 +61,12 @@
 				"local" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
+			"pedaleWahWah.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"envoiAudioReseau.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
+			"syntheseFM.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -104,5 +124,6 @@
 	"amxdtype" : 1633771873,
 	"readonly" : 0,
 	"devpathtype" : 0,
-	"devpath" : "."
+	"devpath" : ".",
+	"sortmode" : 0
 }
