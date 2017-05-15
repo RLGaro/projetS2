@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717533852,
-	"viewrect" : [ 8.0, 247.0, 300.0, 500.0 ],
+	"modificationdate" : -717284476,
+	"viewrect" : [ 162.0, 195.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,7 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"pedaleWahWah.maxpat" : 			{
+			"detectionEnveloppe.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -36,17 +46,12 @@
 				"local" : 1
 			}
 ,
-			"receptionOSC.maxpat" : 			{
+			"pedaleWahWah.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"envoiAudioReseau.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
+			"ModuleEnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
