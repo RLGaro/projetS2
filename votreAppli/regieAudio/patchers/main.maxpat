@@ -38,6 +38,55 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-19",
+					"maxclass" : "ezdac~",
+					"numinlets" : 2,
+					"numoutlets" : 0,
+					"patching_rect" : [ 883.0, 798.0, 45.0, 45.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-18",
+					"maxclass" : "newobj",
+					"numinlets" : 7,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
+					"patching_rect" : [ 847.0, 730.0, 122.0, 22.0 ],
+					"style" : "",
+					"text" : "mixageAudio.maxpat"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-9",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 1223.0, 557.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-15",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "signal" ],
+					"patching_rect" : [ 1223.0, 614.0, 150.0, 22.0 ],
+					"style" : "",
+					"text" : "\"Synthèse accord.maxpat\""
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-43",
 					"maxclass" : "toggle",
 					"numinlets" : 1,
@@ -446,6 +495,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -482,6 +540,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 6 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-3", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -495,6 +562,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-17", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-19", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-18", 0 ]
 				}
 
 			}
@@ -743,6 +828,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -788,6 +882,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-4", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-6", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -815,6 +918,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 3 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-11", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -825,6 +937,15 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-11", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-18", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-6", 0 ]
@@ -878,6 +999,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-18", 5 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-7", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-39", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -894,10 +1024,27 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-15", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-9", 0 ]
+				}
+
+			}
  ],
 		"parameters" : 		{
+			"obj-18::obj-15" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-18::obj-16" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-12::obj-16" : [ "flonum[1]", "flonum[1]", 0 ],
-			"obj-12::obj-13" : [ "flonum", "flonum", 0 ]
+			"obj-12::obj-13" : [ "flonum", "flonum", 0 ],
+			"obj-18::obj-17" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-18::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-18::obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-18::obj-10" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-18::obj-18" : [ "live.gain~[7]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -945,6 +1092,30 @@
 , 			{
 				"name" : "ModuleEnvoiAudio.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "Synthèse accord.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "syntheseFM.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "simpleFM~.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "mixageAudio.maxpat",
+				"bootpath" : "~/Downloads/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
