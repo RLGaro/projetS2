@@ -4,12 +4,12 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 458.0, 219.0, 953.0, 857.0 ],
+		"rect" : [ 447.0, 138.0, 953.0, 857.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -213,7 +213,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-12",
-					"index" : 2,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -279,7 +278,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-8",
-					"index" : 1,
 					"maxclass" : "outlet",
 					"numinlets" : 1,
 					"numoutlets" : 0,
@@ -292,11 +290,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-7",
-					"index" : 7,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 834.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -306,11 +303,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 6,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 720.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -320,11 +316,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-5",
-					"index" : 5,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 628.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -334,11 +329,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-4",
-					"index" : 4,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 543.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -348,11 +342,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 242.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -362,11 +355,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-2",
-					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 462.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -376,11 +368,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-1",
-					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 370.0, 134.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -401,7 +392,6 @@
 					"destination" : [ "obj-12", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -411,7 +401,6 @@
 					"destination" : [ "obj-8", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -421,7 +410,6 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-10", 1 ]
 				}
 
@@ -431,7 +419,6 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -441,7 +428,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -451,7 +437,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -461,7 +446,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -471,7 +455,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-13", 0 ]
 				}
 
@@ -481,7 +464,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -491,7 +473,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-14", 0 ]
 				}
 
@@ -501,7 +482,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -511,7 +491,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-15", 0 ]
 				}
 
@@ -521,7 +500,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -531,7 +509,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-16", 0 ]
 				}
 
@@ -541,7 +518,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -551,7 +527,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-17", 0 ]
 				}
 
@@ -561,7 +536,6 @@
 					"destination" : [ "obj-10", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -571,7 +545,6 @@
 					"destination" : [ "obj-10", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-18", 0 ]
 				}
 
@@ -630,7 +603,20 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-10" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-17" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-16" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-15" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-18" : [ "live.gain~[7]", "live.gain~", 0 ]
+		}
+,
+		"dependency_cache" : [  ],
+		"autosave" : 0
 	}
 
 }
