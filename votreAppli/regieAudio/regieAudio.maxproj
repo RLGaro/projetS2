@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717079709,
-	"viewrect" : [ 81.0, 91.0, 300.0, 500.0 ],
+	"modificationdate" : -717077993,
+	"viewrect" : [ 19.0, 110.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -14,11 +14,6 @@
 				"kind" : "patcher",
 				"local" : 1,
 				"toplevel" : 1
-			}
-,
-			"detectionEnveloppe.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
 			}
 ,
 			"receptionOSC.maxpat" : 			{
@@ -67,6 +62,11 @@
 			}
 ,
 			"EnvoiAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"detectionEnveloppe.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
