@@ -81,7 +81,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 847.0, 730.0, 122.0, 22.0 ],
 					"style" : "",
-					"text" : "\"Synthèse accord.maxpat\""
+					"text" : "mixageAudio.maxpat"
 				}
 
 			}
@@ -89,9 +89,9 @@
 				"box" : 				{
 					"id" : "obj-15",
 					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"numinlets" : 3,
+					"numoutlets" : 2,
+					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 7.0, 238.0, 150.0, 22.0 ],
 					"style" : "",
 					"text" : "\"Synthèse accord.maxpat\""
@@ -230,7 +230,6 @@
 					"destination" : [ "obj-18", 6 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -240,7 +239,6 @@
 					"destination" : [ "obj-18", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -250,7 +248,6 @@
 					"destination" : [ "obj-18", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -260,7 +257,6 @@
 					"destination" : [ "obj-18", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 3,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -270,7 +266,6 @@
 					"destination" : [ "obj-18", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 4,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -280,7 +275,6 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 5,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -290,7 +284,6 @@
 					"destination" : [ "obj-18", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 6,
 					"source" : [ "obj-11", 0 ]
 				}
 
@@ -354,7 +347,6 @@
 					"destination" : [ "obj-15", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 6,
 					"source" : [ "obj-2", 0 ]
 				}
 
@@ -499,7 +491,6 @@
 					"destination" : [ "obj-18", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -509,7 +500,6 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-3", 0 ]
 				}
 
@@ -519,7 +509,6 @@
 					"destination" : [ "obj-18", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -529,7 +518,6 @@
 					"destination" : [ "obj-9", 1 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-4", 0 ]
 				}
 
@@ -539,7 +527,6 @@
 					"destination" : [ "obj-18", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -549,7 +536,6 @@
 					"destination" : [ "obj-9", 2 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-5", 0 ]
 				}
 
@@ -559,17 +545,6 @@
 					"destination" : [ "obj-18", 4 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-6", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-8", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 0,
 					"source" : [ "obj-6", 0 ]
 				}
 
@@ -597,7 +572,6 @@
 					"destination" : [ "obj-18", 5 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 1,
 					"source" : [ "obj-7", 0 ]
 				}
 
@@ -607,20 +581,19 @@
 					"destination" : [ "obj-9", 3 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"order" : 2,
 					"source" : [ "obj-7", 0 ]
 				}
 
 			}
  ],
 		"parameters" : 		{
+			"obj-18::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-18::obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-18::obj-10" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-18::obj-17" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-18::obj-16" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-18::obj-15" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-18::obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
-			"obj-18::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
-			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"obj-18::obj-18" : [ "live.gain~[7]", "live.gain~", 0 ]
 		}
 ,
@@ -686,12 +659,6 @@
 			}
 , 			{
 				"name" : "EnvoiAudio.maxpat",
-				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "ModuleEnvoiAudio.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
