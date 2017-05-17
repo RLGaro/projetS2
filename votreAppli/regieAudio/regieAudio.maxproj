@@ -2,7 +2,7 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717274557,
+	"modificationdate" : -717080798,
 	"viewrect" : [ 19.0, 110.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -66,12 +66,12 @@
 				"local" : 1
 			}
 ,
-			"envoiAudioReseau.maxpat" : 			{
+			"EnvoiAudio.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
-			"EnvoiAudio.maxpat" : 			{
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
