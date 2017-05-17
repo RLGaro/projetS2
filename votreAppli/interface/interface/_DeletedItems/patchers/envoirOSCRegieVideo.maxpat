@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 287.0, 171.0, 405.0, 358.0 ],
+		"rect" : [ 580.0, 200.0, 405.0, 358.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -70,7 +70,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 128.0, 299.0, 160.0, 22.0 ],
 					"style" : "",
-					"text" : "udpsend 192.168.0.42 7500"
+					"text" : "udpsend 192.168.0.40 7500"
 				}
 
 			}
