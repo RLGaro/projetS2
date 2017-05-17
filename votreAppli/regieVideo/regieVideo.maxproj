@@ -2,8 +2,8 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717281534,
-	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
+	"modificationdate" : -717082051,
+	"viewrect" : [ 2.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -20,11 +20,41 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"decoupage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"assemblage.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mix.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"colorimetrie.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"negatif.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"translation.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
 		"media" : 		{
-			"img1.jpg" : 			{
+			"img1.gif" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
