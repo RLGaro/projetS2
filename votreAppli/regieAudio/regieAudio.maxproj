@@ -2,8 +2,8 @@
 	"name" : "regieAudio",
 	"version" : 1,
 	"creationdate" : -721919280,
-	"modificationdate" : -717281583,
-	"viewrect" : [ 646.0, 405.0, 300.0, 500.0 ],
+	"modificationdate" : -717081396,
+	"viewrect" : [ 19.0, 110.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -16,17 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"mixageAudio.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"detectionEnveloppe.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -37,16 +27,6 @@
 			}
 ,
 			"effetAudio2.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"Synthèse accord.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"simpleFM~.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -66,7 +46,32 @@
 				"local" : 1
 			}
 ,
+			"Synthèse accord.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"syntheseFM.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"simpleFM~.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"mixageAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"EnvoiAudio.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"envoiAudioReseau.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
