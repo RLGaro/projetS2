@@ -38,19 +38,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-11",
-					"maxclass" : "newobj",
-					"numinlets" : 1,
-					"numoutlets" : 1,
-					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 1061.0, 669.0, 60.0, 22.0 ],
-					"style" : "",
-					"text" : "loadbang"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-9",
 					"maxclass" : "newobj",
 					"numinlets" : 4,
@@ -195,7 +182,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "bang", "int", "int" ],
+					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 439.5, 8.0, 128.0, 22.0 ],
 					"style" : "",
 					"text" : "receptionOSC.maxpat"
@@ -222,69 +209,6 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-1", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 6 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 5 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 4 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 3 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 2 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-18", 0 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"source" : [ "obj-11", 0 ]
 				}
 
 			}
@@ -587,14 +511,14 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-18::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ],
 			"obj-18::obj-11" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-18::obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
 			"obj-18::obj-10" : [ "live.gain~", "live.gain~", 0 ],
 			"obj-18::obj-17" : [ "live.gain~[6]", "live.gain~", 0 ],
 			"obj-18::obj-16" : [ "live.gain~[5]", "live.gain~", 0 ],
 			"obj-18::obj-15" : [ "live.gain~[4]", "live.gain~", 0 ],
-			"obj-18::obj-18" : [ "live.gain~[7]", "live.gain~", 0 ]
+			"obj-18::obj-14" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-18::obj-18" : [ "live.gain~[7]", "live.gain~", 0 ],
+			"obj-18::obj-13" : [ "live.gain~[2]", "live.gain~", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -659,6 +583,12 @@
 			}
 , 			{
 				"name" : "EnvoiAudio.maxpat",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "ModuleEnvoiAudio.maxpat",
 				"bootpath" : "~/Documents/projetS2/votreAppli/regieAudio/patchers",
 				"type" : "JSON",
 				"implicit" : 1
