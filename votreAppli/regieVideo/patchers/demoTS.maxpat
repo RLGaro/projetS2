@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 122.0, 202.0, 640.0, 480.0 ],
+		"rect" : [ 350.0, 202.0, 814.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -108,9 +108,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 772.0, 290.0, 173.0, 22.0 ],
+					"patching_rect" : [ 772.0, 290.0, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile hanzo.jpg"
+					"text" : "jit.movie @moviefile I2.gif"
 				}
 
 			}
@@ -200,9 +200,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 438.0, 286.0, 181.0, 22.0 ],
+					"patching_rect" : [ 438.0, 286.0, 150.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile torbjorn.jpg"
+					"text" : "jit.movie @moviefile I3.jpg"
 				}
 
 			}
@@ -292,9 +292,9 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "jit_matrix", "" ],
-					"patching_rect" : [ 125.0, 286.0, 267.0, 22.0 ],
+					"patching_rect" : [ 125.0, 286.0, 150.0, 22.0 ],
 					"style" : "",
-					"text" : "jit.movie @moviefile homme-avec-la-fourche.jpg"
+					"text" : "jit.movie @moviefile I1.jpg"
 				}
 
 			}

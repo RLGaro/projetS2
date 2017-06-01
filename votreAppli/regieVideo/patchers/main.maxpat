@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 34.0, 79.0, 1272.0, 857.0 ],
+		"rect" : [ 143.0, 84.0, 1522.0, 858.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -202,7 +202,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 565.0, 408.0, 659.0, 429.0 ]
+					"patching_rect" : [ 686.0, 227.0, 659.0, 429.0 ]
 				}
 
 			}
@@ -525,49 +525,49 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "moduleReceptionAudio.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "detectionEnveloppe.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "demoTS.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "assemblage.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "effetVideo.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "rotation.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "negatif.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "translation.maxpat",
-				"bootpath" : "~/Documents/projet github/projetS2/votreAppli/regieVideo/lecteurVidéo1/patchers",
+				"bootpath" : "~/Documents/projetS2/votreAppli/regieVideo/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
