@@ -2,7 +2,7 @@
 	"name" : "regieVideo",
 	"version" : 1,
 	"creationdate" : -721919246,
-	"modificationdate" : -717281534,
+	"modificationdate" : -715176389,
 	"viewrect" : [ 25.0, 70.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,7 +16,7 @@
 				"toplevel" : 1
 			}
 ,
-			"lecteurVideo.maxpat" : 			{
+			"receptionOSC.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -24,25 +24,29 @@
 		}
 ,
 		"media" : 		{
-			"img1.jpg" : 			{
+			"I1.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"img2.jpg" : 			{
+			"I2.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"img3.jpg" : 			{
+			"I3.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
 ,
-			"img4.jpg" : 			{
+			"I4.jpg" : 			{
 				"kind" : "imagefile",
 				"local" : 1
 			}
+
+		}
+,
+		"externals" : 		{
 
 		}
 
