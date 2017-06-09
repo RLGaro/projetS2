@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 3,
+			"revision" : 1,
 			"architecture" : "x86",
 			"modernui" : 1
 		}
@@ -52,7 +52,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-14",
-					"index" : 3,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -90,7 +89,6 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-6",
-					"index" : 1,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
@@ -104,11 +102,10 @@
 				"box" : 				{
 					"comment" : "",
 					"id" : "obj-3",
-					"index" : 2,
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 213.5, 63.0, 30.0, 30.0 ],
 					"style" : ""
 				}
@@ -196,9 +193,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 161.0, 266.0, 232.0, 22.0 ],
+					"patching_rect" : [ 161.0, 266.0, 258.5, 22.0 ],
 					"style" : "",
-					"text" : "jit.net.send @ip 192.168.0.42 @port 8002"
+					"text" : "jit.net.send @ip 192.168.0.40 @port #1"
 				}
 
 			}
